@@ -15,13 +15,13 @@ export default function ProductsPage() {
             tags: ['Figma', 'UI Kit', 'Logistics', 'Template']
         },
         {
-            id: 'greenroots',
-            title: 'GreenRoots – Environmental Website UI Figma Template',
-            category: 'UI Kit',
-            price: 22,
-            image: '/lisitings/greenroots/photo1.png',
-            description: 'Beautiful environmental website template with earthy tones and nature-inspired elements.',
-            tags: ['Figma', 'UI Kit', 'Environmental', 'Template']
+            id: 'customwebsite',
+            title: 'Custom Website Design & Development',
+            category: 'Web Design',
+            price: 800,
+            image: '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/photo1-thumbnail.webp',
+            description: 'Professional custom website design and development tailored to your business — responsive, fast, and built to convert.',
+            tags: ['Custom', 'Web Design', 'Business', 'Responsive']
         }
     ];
 

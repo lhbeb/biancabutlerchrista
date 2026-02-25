@@ -30,6 +30,7 @@ This template comes with five fully customizable pages, all optimized for easy n
                 '/lisitings/Logix/photo4.jpg',
                 '/lisitings/Logix/photo5.jpg',
                 '/lisitings/Logix/photo6.jpg',
+                '/lisitings/Logix/photo7.jpg',
                 '/lisitings/Logix/photo8.jpg'
             ],
             pages: ['Homepage', 'About', 'Services', 'Service Details', 'Contact'],
@@ -53,45 +54,43 @@ This template comes with five fully customizable pages, all optimized for easy n
                 dimensions: '1440 px (desktop) & 390 px (mobile)'
             }
         },
-        greenroots: {
-            id: 'greenroots',
-            title: 'GreenRoots – Environmental Website UI Figma Template',
-            category: 'UI Kit',
-            standardPrice: 22,
-            extendedPrice: 99,
-            description: `Transform your environmental message with GreenRoots, a beautiful and engaging Environmental Website UI Figma Template. Designed for eco-conscious organizations, this template helps you showcase your sustainability initiatives and connect with environmentally aware audiences.
-
-This template features modern, clean design with earthy tones and nature-inspired elements. Perfect for environmental organizations, green businesses, sustainability consultants, and eco-friendly brands looking to make a positive impact online.`,
-            note: 'All preview images are excluded from the download Figma files.',
+        customwebsite: {
+            id: 'customwebsite',
+            title: 'Custom Website Design & Development',
+            category: 'Web Design',
+            standardPrice: 800,
+            extendedPrice: 1500,
+            description: `Get a fully custom, professionally designed website built around your brand and business goals. Every site we deliver is crafted from scratch \u2014 no page builders, no cookie-cutter templates.\n\nFrom a sleek landing page to a full multi-page business site, we handle every detail: design, development, mobile responsiveness, speed optimisation, and launch. You work directly with us at every step.`,
+            note: 'Final deliverable is a live, hosted website. All source files are included with the Extended license.',
             images: [
-                '/lisitings/greenroots/photo1.png',
-                '/lisitings/greenroots/photo2.jpg',
-                '/lisitings/greenroots/photo3.jpg',
-                '/lisitings/greenroots/photo4.jpg',
-                '/lisitings/greenroots/photo5.jpg',
-                '/lisitings/greenroots/photo6.jpg',
-                '/lisitings/greenroots/photo7.jpg'
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/photo1-thumbnail.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6495666284_b92l.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6592182288_p9qm.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6592182412_7z98.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6592182722_blvw.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6640297267_d3o2.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6640297547_d9zd.webp',
+                '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/il_1140xN.6640297709_531z.webp'
             ],
-            pages: ['Homepage', 'About Us', 'Projects', 'Blog', 'Contact'],
+            pages: ['Homepage', 'About', 'Services', 'Portfolio', 'Contact'],
             features: [
-                'Desktop & Mobile View',
-                'Support for Figma',
-                'Modern and clean design',
-                '1440 px (desktop) & 390 px (mobile)',
-                'Using FREE fonts from Google Fonts',
-                'Well documented',
-                'Easy to edit and customize',
-                'All graphics re-sizeable and editable',
-                'Eco-friendly color palette'
+                'Fully custom design (no templates)',
+                'Desktop & Mobile responsive',
+                'SEO-ready structure',
+                'Fast load times',
+                'Contact form included',
+                'Google Analytics setup',
+                'Cross-browser tested',
+                'Post-launch support'
             ],
-            colors: ['Green', 'Earth Brown', 'White'],
-            perfectFor: ['Environmental Organizations', 'Sustainability Consultants', 'Green Businesses', 'Non-Profit Organizations'],
+            colors: ['Your Brand Colors'],
+            perfectFor: ['Small Businesses', 'Freelancers & Consultants', 'Startups', 'Service Providers'],
             specs: {
-                created: 'January 15, 2026',
-                compatible: 'Figma',
-                fileSize: '15.23 MB',
-                fileType: 'FIG',
-                dimensions: '1440 px (desktop) & 390 px (mobile)'
+                created: 'February 25, 2026',
+                compatible: 'All Major Browsers & Devices',
+                fileSize: 'Live Website',
+                fileType: 'Custom Build',
+                dimensions: 'Fully Responsive'
             }
         }
     };
