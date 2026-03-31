@@ -54,6 +54,38 @@ This template comes with five fully customizable pages, all optimized for easy n
                 dimensions: '1440 px (desktop) & 390 px (mobile)'
             }
         },
+        ronel: {
+            id: 'ronel',
+            title: 'Ronel - NodeJs Landing Page Template',
+            category: 'Landing Page',
+            standardPrice: 18,
+            extendedPrice: 89,
+            description: `Ronel is a Startup Landing Page, Responsive, quick and easy customizable Modern Startup Landing Page Template that comes with NodeJs pages in 10 home page variations with 3 Authentication pages. It’s fully responsive and built with Bootstrap v5. Users will love your site because it gives them a unique user experience (UX), a clean, modern & beautiful design. You will be easily able to customize it for your needs.\n\nI have tried to follow the standards and modular structure while developing the theme. The following sections explain the theme File & Folder, structure, file structure, and plugins.`,
+            images: [
+                '/lisitings/Ronel - NodeJs Landing Page Template/photo1.png'
+            ],
+            pages: ['10+ Home Pages', 'Log In', 'Sign Up', 'Auth Pages'],
+            features: [
+                'Built with NodeJs & Bootstrap v5.3',
+                '10+ Different pages',
+                'Auth Pages included',
+                'Fully responsive in all devices',
+                'W3Validated code',
+                'Easy to Customize',
+                'Clean code',
+                'Modern Design',
+                'Log In & Sign Up Pages included'
+            ],
+            colors: ['Various Options'],
+            perfectFor: ['Startups', 'SaaS', 'Agencies', 'Businesses'],
+            specs: {
+                created: 'Recent',
+                compatible: 'NodeJs, Bootstrap v5',
+                fileSize: 'Varies',
+                fileType: 'ZIP',
+                dimensions: 'Fully Responsive'
+            }
+        },
         customwebsite: {
             id: 'customwebsite',
             title: 'Custom Website Design & Development',

@@ -202,35 +202,35 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* GreenRoots */}
+            {/* Ronel */}
             <Link
-              href="/products/greenroots"
+              href="/products/ronel"
               className="group bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               <div className="relative h-52 bg-slate-100">
                 <Image
-                  src="/lisitings/greenroots/photo1.png"
-                  alt="GreenRoots Template"
+                  src="/lisitings/Ronel - NodeJs Landing Page Template/photo1.png"
+                  alt="Ronel Template"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  UI Kit
+                  Landing Page
                 </div>
               </div>
               <div className="p-6 flex flex-col">
                 <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                  GreenRoots – Environmental Website UI Figma Template
+                  Ronel - NodeJs Landing Page Template
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm flex-1">
-                  Beautiful environmental website template with earthy tones and nature-inspired elements.
+                  Ronel is a highly responsive Modern Startup Landing Page Template that comes with 10 home page variations.
                 </p>
                 <div className="flex gap-2 mb-4">
-                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">Figma</span>
-                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">UI Kit</span>
+                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">NodeJs</span>
+                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">Template</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-3xl font-bold text-primary">$22</span>
+                  <span className="text-3xl font-bold text-primary">$18</span>
                   <span className="text-primary font-semibold flex items-center gap-2">
                     View Details
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -15,6 +15,15 @@ export default function ProductsPage() {
             tags: ['Figma', 'UI Kit', 'Logistics', 'Template']
         },
         {
+            id: 'ronel',
+            title: 'Ronel - NodeJs Landing Page Template',
+            category: 'Landing Page',
+            price: 18,
+            image: '/lisitings/Ronel - NodeJs Landing Page Template/photo1.png',
+            description: 'Ronel is a Startup Landing Page, Responsive, quick and easy customizable Modern Startup Landing Page Template that comes with NodeJs pages.',
+            tags: ['NodeJs', 'Bootstrap', 'Template', 'Startup']
+        },
+        {
             id: 'customwebsite',
             title: 'Custom Website Design & Development',
             category: 'Web Design',
