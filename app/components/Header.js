@@ -13,8 +13,8 @@ export default function Header() {
       <div className="fixed top-0 left-0 right-0 z-50 bg-primary text-white flex items-center justify-center" style={{ height: '32px' }}>
         <span className="text-sm text-center leading-none">
           Free consultation available — let&apos;s build something great together &nbsp;·&nbsp;{' '}
-          <a href="mailto:najouaaddou@outlook.com" className="underline underline-offset-2 hover:opacity-80 transition-opacity font-semibold">
-            najouaaddou@outlook.com
+          <a href="mailto:marouanndoumm12@outlook.com" className="underline underline-offset-2 hover:opacity-80 transition-opacity font-semibold">
+            marouanndoumm12@outlook.com
           </a>
         </span>
       </div>

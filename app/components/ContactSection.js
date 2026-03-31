@@ -17,7 +17,7 @@ export default function ContactSection() {
 
                     {/* Email */}
                     <a
-                        href="mailto:najouaaddou@outlook.com"
+                        href="mailto:marouanndoumm12@outlook.com"
                         className="group bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/20 transition-all duration-300 hover:-translate-y-1"
                     >
                         <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-5">
@@ -27,7 +27,7 @@ export default function ContactSection() {
                         </div>
                         <p className="text-white/60 text-xs font-semibold uppercase tracking-widest mb-2">Email Us</p>
                         <p className="text-white font-bold text-lg break-all group-hover:underline underline-offset-2 transition-all">
-                            najouaaddou@outlook.com
+                            marouanndoumm12@outlook.com
                         </p>
                     </a>
 
@@ -43,7 +43,7 @@ export default function ContactSection() {
                         </div>
                         <p className="text-white/60 text-xs font-semibold uppercase tracking-widest mb-2">Call Us</p>
                         <p className="text-white font-bold text-2xl group-hover:underline underline-offset-2 transition-all">
-                            +1 912 923 1747
+                            +1 9129231747
                         </p>
                     </a>
 
@@ -57,9 +57,8 @@ export default function ContactSection() {
                         </div>
                         <p className="text-white/60 text-xs font-semibold uppercase tracking-widest mb-2">Visit Us</p>
                         <p className="text-white font-bold text-lg leading-snug">
-                            N 51 HAY EL OUMA<br />
-                            TANGER 60050<br />
-                            Morocco
+                            14 SECTEUR 01 KASBAB MEHDIA<br />
+                            KENITRA 14020
                         </p>
                     </div>
 

@@ -71,8 +71,8 @@ export default function ContactPage() {
                                         </div>
                                         <div>
                                             <h3 className="font-semibold text-lg mb-1">Email</h3>
-                                            <a href="mailto:najouaaddou@outlook.com" className="text-[#2B4333] hover:text-[#1d2f24] text-lg">
-                                                najouaaddou@outlook.com
+                                            <a href="mailto:marouanndoumm12@outlook.com" className="text-[#2B4333] hover:text-[#1d2f24] text-lg">
+                                                marouanndoumm12@outlook.com
                                             </a>
                                         </div>
                                     </div>
@@ -86,7 +86,7 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-semibold text-lg mb-1">Phone</h3>
                                             <a href="tel:+19129231747" className="text-[#2B4333] hover:text-[#1d2f24] text-lg">
-                                                +1 912 923 1747
+                                                +1 9129231747
                                             </a>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@ export default function ContactPage() {
                                         <div>
                                             <h3 className="font-semibold text-lg mb-1">Address</h3>
                                             <p className="text-gray-700 text-lg">
-                                                N 51 HAY EL OUMA TANGER 60050, Morocco
+                                                14 SECTEUR 01 KASBAB MEHDIA KENITRA 14020
                                             </p>
                                         </div>
                                     </div>

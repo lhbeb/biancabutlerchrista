@@ -134,10 +134,10 @@ export default function PrivacyPage() {
                             </p>
                             <div className="bg-blue-50 p-6 rounded-xl mt-4">
                                 <p className="text-gray-800 mb-2"><strong>Bianca Butler Christa</strong></p>
-                                <p className="text-gray-700 mb-2">Najoua Addou</p>
-                                <p className="text-gray-700 mb-2">Email: najouaaddou@outlook.com</p>
-                                <p className="text-gray-700 mb-2">Phone: +1 912 923 1747</p>
-                                <p className="text-gray-700">Address: N 51 HAY EL OUMA TANGER 60050, Morocco</p>
+                                <p className="text-gray-700 mb-2">MAROUANN DOUMM</p>
+                                <p className="text-gray-700 mb-2">Email: marouanndoumm12@outlook.com</p>
+                                <p className="text-gray-700 mb-2">Phone: +1 9129231747</p>
+                                <p className="text-gray-700">Address: 14 SECTEUR 01 KASBAB MEHDIA KENITRA 14020</p>
                             </div>
 
                             <div className="mt-12 p-6 bg-blue-50 rounded-xl border border-blue-100">
