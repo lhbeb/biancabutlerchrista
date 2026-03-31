@@ -12,7 +12,7 @@ export default function Header() {
       {/* Promotional Banner */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-primary text-white flex items-center justify-center" style={{ height: '32px' }}>
         <span className="text-sm text-center leading-none">
-          Free consultation available — let&apos;s build something great together &nbsp;·&nbsp;{' '}
+          For inquiries and order inquiries, contact us through email &nbsp;·&nbsp;{' '}
           <a href="mailto:marouanndoumm12@outlook.com" className="underline underline-offset-2 hover:opacity-80 transition-opacity font-semibold">
             marouanndoumm12@outlook.com
           </a>
