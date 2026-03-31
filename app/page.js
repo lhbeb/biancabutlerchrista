@@ -38,6 +38,36 @@ export default function Home() {
     }
   ];
 
+  const products = [
+    {
+        id: 'logix',
+        title: 'Logix – Logistic Website UI Figma Template',
+        category: 'UI Kit',
+        price: 18,
+        image: '/lisitings/Logix/photo1.png',
+        description: 'A sleek and user-friendly Logistics Website UI Figma Template designed for desktop and mobile.',
+        tags: ['Figma', 'UI Kit']
+    },
+    {
+        id: 'ronel',
+        title: 'Ronel - NodeJs Landing Page Template',
+        category: 'Landing Page',
+        price: 18,
+        image: '/lisitings/Ronel - NodeJs Landing Page Template/photo1.png',
+        description: 'Ronel is a Startup Landing Page, Responsive, quick and easy customizable Modern Startup Landing Page Template.',
+        tags: ['NodeJs', 'Template']
+    },
+    {
+        id: 'customwebsite',
+        title: 'Custom Website Design & Development',
+        category: 'Web Design',
+        price: 800,
+        image: '/lisitings/Website Design and Development, Custom websites, Business websites, Custom Websites For Business/photo1-thumbnail.webp',
+        description: 'Professional custom website design and development tailored to your business.',
+        tags: ['Custom', 'Business']
+    }
+  ];
+
   return (
     <>
       {/* Hero Section */}
@@ -156,90 +186,56 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl sm:text-5xl font-bold mb-4">Digital Templates</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4">Digital Products & Templates</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Ready-to-customise Figma UI kits — built to save you weeks of design work
+              Premium templates and custom digital solutions to elevate your online presence.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {/* Logix */}
-            <Link
-              href="/products/logix"
-              className="group bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-            >
-              <div className="relative h-52 bg-slate-100">
-                <Image
-                  src="/lisitings/Logix/photo1.png"
-                  alt="Logix Template"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  UI Kit
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {products.map((product) => (
+              <Link
+                key={product.id}
+                href={`/products/${product.id}`}
+                className="group bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col"
+              >
+                <div className="relative h-52 bg-slate-100 flex-shrink-0">
+                  <Image
+                    src={product.image}
+                    alt={product.title}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
+                    {product.category}
+                  </div>
                 </div>
-              </div>
-              <div className="p-6 flex flex-col">
-                <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                  Logix – Logistic Website UI Figma Template
-                </h3>
-                <p className="text-gray-600 mb-4 text-sm flex-1">
-                  A sleek and user-friendly Logistics Website UI Figma Template designed for desktop and mobile.
-                </p>
-                <div className="flex gap-2 mb-4">
-                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">Figma</span>
-                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">UI Kit</span>
+                <div className="p-6 flex flex-col flex-1">
+                  <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
+                    {product.title}
+                  </h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-1">
+                    {product.description}
+                  </p>
+                  <div className="flex gap-2 mb-4">
+                    {product.tags.map((tag, idx) => (
+                      <span key={idx} className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex items-center justify-between mt-auto">
+                    <span className="text-3xl font-bold text-primary">${product.price}</span>
+                    <span className="text-primary font-semibold flex items-center gap-2">
+                      View Details
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-3xl font-bold text-primary">$18</span>
-                  <span className="text-primary font-semibold flex items-center gap-2">
-                    View Details
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
-              </div>
-            </Link>
-
-            {/* Ronel */}
-            <Link
-              href="/products/ronel"
-              className="group bg-slate-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-            >
-              <div className="relative h-52 bg-slate-100">
-                <Image
-                  src="/lisitings/Ronel - NodeJs Landing Page Template/photo1.png"
-                  alt="Ronel Template"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
-                  Landing Page
-                </div>
-              </div>
-              <div className="p-6 flex flex-col">
-                <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                  Ronel - NodeJs Landing Page Template
-                </h3>
-                <p className="text-gray-600 mb-4 text-sm flex-1">
-                  Ronel is a highly responsive Modern Startup Landing Page Template that comes with 10 home page variations.
-                </p>
-                <div className="flex gap-2 mb-4">
-                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">NodeJs</span>
-                  <span className="px-3 py-1 bg-blue-50 text-primary rounded-full text-sm font-semibold">Template</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-3xl font-bold text-primary">$18</span>
-                  <span className="text-primary font-semibold flex items-center gap-2">
-                    View Details
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
-              </div>
-            </Link>
+              </Link>
+            ))}
           </div>
 
           <div className="text-center mt-12">
