@@ -10,10 +10,11 @@ export default function Footer() {
                     <div className="lg:col-span-2">
                         <div className="mb-6">
                             <Image
-                                src="/logo-white.svg"
-                                alt="Bianca Butler Christa"
-                                width={160}
-                                height={48}
+                                src="/logo.svg"
+                                alt="Bianca Butler Christa Logo"
+                                width={240}
+                                height={70}
+                                className="h-16 w-auto"
                             />
                         </div>
                         <div className="space-y-3 text-gray-300">
